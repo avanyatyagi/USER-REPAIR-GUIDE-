@@ -5,40 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Repair Guide - Product Page</title>
     <link rel="stylesheet" href="../css/prod.css">
+
 </head>
 <body>
-    <header>
-        <h1>User Repair Guide</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Guides</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+       <!-- Nav section start -->
+       <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">User Repair Guide</a>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="/pages/landing.html">Home</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#services">Services</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Nav section end -->
 
     <main>
-        <section class="product">
-            <h2>Product: Laptop</h2>
-            <p><strong>Description:</strong> A laptop computer is a portable personal computer powered by a battery or an external power supply.</p>
-            <h3>Repair Instructions</h3>
-            <ol>
-                <li>Turn off the laptop and unplug it from the power source.</li>
-                <li>Remove the battery if possible.</li>
-                <li>Locate the screws securing the bottom cover and remove them using a screwdriver.</li>
-                <li>Carefully pry open the bottom cover using a plastic opening tool.</li>
-                <li>Identify the component causing the issue (e.g., hard drive, RAM, etc.).</li>
-                <li>Replace or repair the faulty component as needed.</li>
-                <li>Reassemble the laptop by following the steps in reverse order.</li>
-                <li>Test the laptop to ensure the issue has been resolved.</li>
-            </ol>
+        <section id="product-section" class="product">
+            <h2>Product</h2>
+            <div id="product-details"></div>
         </section>
     </main>
+
+    <!-- Contact starts -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need further assistance, please feel free to reach out to us:</p>
+        <ul>
+            <li>Email: support@userrepairguide.com</li>
+            <li>Phone: +8595990626</li>
+            <li>Address: Akshardham, New Delhi</li>
+        </ul>
+    </section>
+    <!-- Contact ends -->
 
     <footer>
         <p>&copy; 2024 User Repair Guide. All rights reserved.</p>
     </footer>
+    <script src="../js/product.js"></script>
+   
 </body>
 </html>
